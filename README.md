@@ -3,24 +3,6 @@
 ## Overview
 This project focuses on performing geospatial clustering analysis using machine learning techniques. The dataset contains latitude and longitude coordinates, which are grouped into clusters for visualization and further analysis.
 
-## Project Structure
-```
-Geospetical/
-│-- DATA/
-│   ├── cluster_plot.png          # Scatter plot of clusters
-│   ├── cluster_result.csv        # Clustering results dataset
-│   ├── clustering_map.html       # Interactive map of clusters
-│   ├── ML Assignment Dataset.csv # Original dataset
-│-- Notebook/
-│   ├── Geo_cluster.ipynb         # Jupyter notebook for analysis
-│-- script/
-│   ├── aws_run.py                # AWS-related operations (not working due to account verification issue)
-│   ├── clustering.py             # Script for clustering
-│   ├── visualization.py          # Script for visualization
-│-- venv/                         # Virtual environment (if applicable)
-│-- README.md                     # Project documentation
-│-- requirements.txt               # Dependencies list
-```
 
 ## Requirements
 Before running the scripts, install the required dependencies using:
