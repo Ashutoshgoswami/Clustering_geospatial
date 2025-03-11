@@ -17,30 +17,13 @@ This project applies multiple clustering algorithms to geospatial data to identi
 - **Gaussian Mixture Model (GMM)**
 
 ## Visualizations
+
 ### Clustering Result
-![Clustering Result]("C:/Geospetical/DATA/cluster_plot.png")
+![](C:/Geospetical/DATA/cluster_plot.png)
 
 ### Interactive Map
-![Mapping Result]("C:/Geospetical/DATA/MAP.png")
+![](C:/Geospetical/DATA/MAP.png)
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/geospetical-clustering.git
-   cd geospetical-clustering
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the clustering script:
-   ```bash
-   python script/clustering.py
-   ```
-4. Run visualization:
-   ```bash
-   python script/visualization.py
-   ```
 
 
 ## Requirements
@@ -85,10 +68,6 @@ For a step-by-step analysis, refer to the Jupyter Notebook:
 Notebook/Geo_cluster.ipynb
 ```
 
-## Notes
-- Ensure your Python environment is activated (`venv/` if applicable) before running scripts.
-- Results are stored inside the `DATA/` folder.
-- If AWS verification is resolved, `aws_run.py` can be used for cloud execution.
 
 
 
