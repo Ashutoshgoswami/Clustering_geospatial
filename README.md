@@ -1,7 +1,46 @@
-# Geospetical Clustering Project
 
-## Overview
-This project focuses on performing geospatial clustering analysis using machine learning techniques. The dataset contains latitude and longitude coordinates, which are grouped into clusters for visualization and further analysis.
+# Geospatial Clustering Project
+
+## Project Overview
+This project applies multiple clustering algorithms to geospatial data to identify meaningful groups within a dataset. It includes:
+- Data preprocessing and normalization
+- Clustering using K-Means, DBSCAN, Agglomerative Clustering, and Gaussian Mixture Model (GMM)
+- Evaluation using Silhouette Score and Davies-Bouldin Score
+- Visualization of results with scatter plots and interactive maps
+
+
+
+## Clustering Algorithms Used
+- **K-Means Clustering**
+- **DBSCAN (Density-Based Spatial Clustering)**
+- **Agglomerative Clustering**
+- **Gaussian Mixture Model (GMM)**
+
+## Visualizations
+### Clustering Result
+![Clustering Result](C:/Geospetical/DATA/cluster_plot.png)
+
+### Interactive Map
+![Mapping Result](C:/Geospetical/DATA/MAP.png)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/geospetical-clustering.git
+   cd geospetical-clustering
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the clustering script:
+   ```bash
+   python script/clustering.py
+   ```
+4. Run visualization:
+   ```bash
+   python script/visualization.py
+   ```
 
 
 ## Requirements
