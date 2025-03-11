@@ -18,10 +18,10 @@ This project applies multiple clustering algorithms to geospatial data to identi
 
 ## Visualizations
 ### Clustering Result
-![Clustering Result](C:/Geospetical/DATA/cluster_plot.png)
+![Clustering Result]("C:/Geospetical/DATA/cluster_plot.png")
 
 ### Interactive Map
-![Mapping Result](C:/Geospetical/DATA/MAP.png)
+![Mapping Result]("C:/Geospetical/DATA/MAP.png")
 
 ## Installation
 1. Clone the repository:
