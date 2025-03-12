@@ -6,7 +6,7 @@ import seaborn as sns
 # Load clustered data
 df = pd.read_csv("C:/Geospetical/DATA/cluster_result.csv")
 
-# Ensure cluster labels are integers
+# cluster labels are integers
 df["Cluster"] = df["Cluster"].astype(int)
 
 # Define a color map
@@ -21,7 +21,7 @@ for _, row in df.iterrows():
     folium.CircleMarker(
         location=[row["Latitude"], row["Longitude"]],
         radius=5,
-        color=colors[cluster_label % len(colors)],  # Ensure integer index
+        color=colors[cluster_label % len(colors)],  # integer index
         fill=True
     ).add_to(m)
 

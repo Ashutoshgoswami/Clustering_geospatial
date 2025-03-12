@@ -9,7 +9,7 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 file_path = "C:/Geospetical/DATA/ML Assignment Dataset.csv"
 df = pd.read_csv(file_path, delimiter=";")
 
-df.dropna(inplace=True)  # Drop NaN values if any
+df.dropna(inplace=True)  
 
 # Extract coordinates
 X = df[['Longitude', 'Latitude']].values
@@ -18,7 +18,7 @@ X = df[['Longitude', 'Latitude']].values
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Define number of clusters for applicable models
+# Number of clusters for models
 k = 5
 
 # Initialize models
@@ -41,7 +41,7 @@ best_score = -1
 
 for name, model in models.items():
     labels = model.fit_predict(X_scaled)
-    if len(set(labels)) > 1:  # Ensure valid silhouette score
+    if len(set(labels)) > 1:  # valid silhouette score
         silhouette = silhouette_score(X_scaled, labels)
         db_score = davies_bouldin_score(X_scaled, labels)
         clustering_results["Model"].append(name)
