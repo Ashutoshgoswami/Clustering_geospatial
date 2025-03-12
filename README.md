@@ -19,10 +19,10 @@ This project applies multiple clustering algorithms to geospatial data to identi
 ## Visualizations
 
 ### Clustering Result
-![](C:/Geospetical/DATA/cluster_plot.png)
+![](cluster_plot.png)
 
 ### Interactive Map
-![](C:/Geospetical/DATA/MAP.png)
+![](MAP_1.png)
 
 
 
